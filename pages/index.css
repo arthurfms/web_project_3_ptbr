@@ -50,9 +50,6 @@
   width: 984px;
   height: 615px;
   margin: 64px 0 0;
-  background: url(../images/kalegin-michail-179870-unsplash.png);
-  background-size:cover;
-  background-blend-mode: multiply;
   filter: grayscale(100%);
 }
 
