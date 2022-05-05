@@ -50,6 +50,10 @@
   width: 984px;
   height: 615px;
   margin: 64px 0 0;
+  background: url(../images/kalegin-michail-179870-unsplash.png);
+  background-size:cover;
+  background-blend-mode: multiply;
+  filter: grayscale(100%);
 }
 
 .intro {
@@ -198,7 +202,7 @@
   margin: 0 auto;
   width: 1184px;
   height: 740px;
-  background:url(../images/__background.png) rgba(42, 44, 47, 0.3);
+  background: url(../images/__background.png) rgba(42, 44, 47, 0.3);
   background-size:cover;
   background-blend-mode: multiply;
   display: flex;
