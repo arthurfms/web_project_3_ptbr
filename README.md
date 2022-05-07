@@ -8,4 +8,4 @@ Site landing page sobre a cidade natal de alguns dos colaboradores da Yandex, on
 
 Neste projeto, foram utilizadas técnicas responsivas, HTML e CSS avançados e metodologia BEM.
 
-- [Link para o projeto](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)
+- [Link para o projeto](https://arthurfms.github.io/web_project_3_ptbr/)
