@@ -1,0 +1,17 @@
+.place__paragraphs {
+  grid-area: paragraphs;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin: 0;
+}
+@media (max-width: 749px) and (min-width: 550px) {
+  .place__paragraphs {
+    width: 100%;
+  }
+}
+@media (max-width: 549px) and (min-width: 300px) {
+  .place__paragraphs {
+    width: 100%;
+  }
+}

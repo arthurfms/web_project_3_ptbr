@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-SemiBold.woff);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Black.woff);
+  font-weight: 900;
+}
+
+.page {
+  background-color: #2a2c2f;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+}

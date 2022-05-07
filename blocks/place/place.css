@@ -1,0 +1,46 @@
+.place {
+  max-width: 984px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title ."
+    "title website"
+    "image paragraphs"
+    "image paragraphs"
+    "buy paragraphs"
+    ". paragraphs";
+  row-gap: 48px;
+  column-gap: 40px;
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  .place {
+    max-width: 786px;
+    column-gap: 15px;
+  }
+}
+@media (max-width: 768px) and (min-width: 750px) {
+  .place {
+    max-width: 733px;
+    column-gap: 13px;
+  }
+}
+@media (max-width: 749px) and (min-width: 550px) {
+  .place {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 549px) and (min-width: 300px) {
+  .place {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+}

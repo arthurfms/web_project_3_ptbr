@@ -1,0 +1,30 @@
+.place__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}
+@media (max-width: 768px) and (min-width: 750px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}
+@media (max-width: 749px) and (min-width: 550px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}
+@media (max-width: 549px) and (min-width: 300px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}

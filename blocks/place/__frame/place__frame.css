@@ -1,0 +1,34 @@
+.place__frame {
+  margin: 0;
+  width: 355px;
+  height: 48px;
+  background: #0278fe;
+  border-radius: 4px;
+  grid-area: buy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease 2s;
+}
+.place__frame a {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.22;
+  text-decoration: none;
+  color: #fff;
+}
+@media screen {
+  .place__frame:hover {
+    background: #0063d2;
+  }
+}
+@media (max-width: 549px) and (min-width: 300px) {
+  .place__frame {
+    width: 288px;
+  }
+  .place__frame a {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
