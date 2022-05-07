@@ -1,4 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-SemiBold.woff);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Black.woff);
+  font-weight: 900;
+}
 
 .page {
   background-color: #2a2c2f;
@@ -32,7 +48,7 @@
 .lead__title {
   max-width: 793px;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.04;
   text-align: center;
   margin: 90px 0 0;
 }
@@ -41,7 +57,7 @@
   width: 720px;
   font-size: 30px;
   font-weight: normal;
-  line-height: 36px;
+  line-height: 1.2;
   text-align: center;
   margin: 32px 0 0;
 }
@@ -63,21 +79,21 @@
 .intro__title {
   font-size: 54px;
   font-weight: 900;
-  line-height: 58px;
+  line-height: 1.07;
   margin: 0;
 }
 
 .intro__quote {
   max-width: 720px;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 1.42;
   margin: 40px 0 0;
 }
 
 .intro__quote-author {
   max-width: 720px;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 1.42;
   text-align: right;
   margin: 10px 0 0;
 }
@@ -85,7 +101,7 @@
 .intro__text {
   max-width: 720px;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   margin: 32px 0 0;
 }
 
@@ -135,7 +151,7 @@
   grid-area: title;
   font-size: 72px;
   font-weight: 900;
-  line-height: 76px;
+  line-height: 1.06;
   margin: 0;
 }
 
@@ -166,7 +182,7 @@
   margin: 0;
   font-size: 18px;
   font-weight: 600;
-  line-height: 22px;
+  line-height: 1.22;
   text-decoration: none;
   color: #fff;
 }
@@ -181,7 +197,7 @@
 .website__url-heading {
   font-weight: 400;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin: 0 0 8px;
@@ -191,7 +207,7 @@
 .website__artist {
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
   margin: 0;
 }
 
@@ -206,7 +222,7 @@
 .place__paragraph {
   font-weight: 400;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 1.63;
   margin: 0;
 }
 
@@ -230,7 +246,7 @@
   margin: 0 0 32px;
   font-size: 72px;
   font-weight: 900;
-  line-height: 76px;
+  line-height: 1.06;
 }
 
 .cover__subtitle {
@@ -238,7 +254,7 @@
   height: 66px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 1.22;
   margin: 0;
   white-space: pre-line;
 }
@@ -259,7 +275,7 @@
   margin: 0;
   font-size: 18px;
   font-weight: 600;
-  line-height: 22px;
+  line-height: 1.22;
   text-decoration: none;
   color: #fff;
 }
@@ -274,7 +290,7 @@
   margin: 92px 0 24px;
   font-size: 14px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1.14;
 }
 
 @media screen {
@@ -313,7 +329,7 @@
   .place__title {
     max-width: 340px;
     font-size: 57px;
-    line-height: 61px;
+    line-height: 1.07;
   }
   .place__photo {
     max-width: 400px;
@@ -324,7 +340,7 @@
   }
   .place__paragraph {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
   }
 }
 
@@ -353,7 +369,7 @@
   .place__title {
     max-width: 340px;
     font-size: 42px;
-    line-height: 46px;
+    line-height: 1.09;
   }
   .place__photo {
     max-width: 340px;
@@ -364,7 +380,7 @@
   }
   .place__paragraph {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
   }
 }
 
@@ -398,7 +414,7 @@
   .place__title {
     width: 100%;
     font-size: 42px;
-    line-height: 46px;
+    line-height: 1.09;
   }
   .place__photo {
     max-width: 100%;
@@ -412,7 +428,7 @@
   }
   .place__paragraph {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
   }
 }
 @media (max-width: 549px) and (min-width: 300px) {
@@ -424,13 +440,13 @@
     width: 100%;
     margin-top: 50px;
     font-size: 40px;
-    line-height: 44px;
+    line-height: 1.1;
   }
   .lead__subtitle {
     width: 96%;
     margin-top: 60px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
   }
   .intro {
     margin: 44px 0 0;
@@ -438,11 +454,11 @@
   }
   .intro__title {
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
     margin: 0 16px;
   }
   .intro__quote {
-    line-height: 30px;
+    line-height: 1.25;
     margin: 9px 16px 0;
   }
   .intro__quote-author {
@@ -476,7 +492,7 @@
   .place__title {
     width: 100%;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
     margin-left: 16px;
   }
   .place__photo {
@@ -491,14 +507,14 @@
   }
   .place__paragraph {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
   }
   .place__frame {
     width: 288px;
   }
   .place__frame a {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
   }
 
   .cover {
@@ -509,13 +525,10 @@
 
   .cover__title {
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
   }
   .cover__subtitle {
     font-size: 14px;
-    line-height: 16px;
-  }
-  .footer__copyright {
-    line-height: 14px;
+    line-height: 1.14;
   }
 }
