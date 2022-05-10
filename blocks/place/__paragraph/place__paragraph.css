@@ -26,5 +26,6 @@
   .place__paragraph {
     font-size: 16px;
     line-height: 1.62;
+    margin: 0 16px;
   }
 }
